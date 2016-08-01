@@ -1,0 +1,39 @@
+digraph foo {
+#        graph [rankdir=LR ]
+#	node [style=filled,shape=Mrecord,fontname="Helvetica",width=2.75,fon]
+#	node [style=filled,shape=Mrecord,width=3.2,fontsize=14,color="#1c3f94",fontname="schlbk",margin="0.04,0.020",pad="0.02"]
+	node [style=filled,shape=Mrecord,fontsize=14,color="#1c3f94",fontname="schlbk:bold",margin="0.14,0.090",width=3.4,height=.4]
+
+
+
+	edge [color=Blue;style="invis"]
+	overlap=false;
+	splines=true;
+	margin=2;
+	
+	# End Header
+
+
+	"DI"[label="Study concept & design\l",fillcolor="#ab9271"];
+	"DV"[label="Data Collection\l",fillcolor="#ea871c"];
+	"DA"[label="Data processing\l",fillcolor="#41ad49"]; 
+	"Pub"[label="Data access and disemination\l",fillcolor="#acd1ef"];
+	"FB"[label="Data analysis\l",fillcolor="#00aeef"];
+	"FB2"[label="Curation tools\l",fillcolor="#a6ce39"];
+	"FB3"[label="Information interation\l",fillcolor="#62889a"];
+	"FB4"[label="Information discovery\l",fillcolor="#ec008c"];
+	"FB5"[label="Research Results\l",fillcolor="#fff200"];
+	"FB6"[label="Outcomes\l",fillcolor="#d2232a"];
+
+
+	   "DI"  ->  "DV";
+	   "DV"  ->  "DA";
+	   "DA"  ->  "Pub";
+  	   "Pub"  ->  "FB";
+    	   "FB"  ->  "FB2";
+      	   "FB2"  ->  "FB3";
+       	  "FB3"  ->  "FB4";
+       	   "FB4"  ->  "FB5";
+       	   "FB5"  ->  "FB6";	  	  
+
+}
