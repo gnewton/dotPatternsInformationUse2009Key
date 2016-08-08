@@ -1,0 +1,27 @@
+digraph foo {
+	node [style=filled,shape=Mrecord]
+	edge [color=Blue]
+	overlap=false;
+	splines=true;
+	# End Header
+
+
+	"DI"[label="Study concept \n& design",fillcolor="#ab9271"];
+	"DV"[label="Data Collection",fillcolor="#ea871c"];
+	"DA"[label="Data processing",fillcolor="#38743c"];
+	"Pub"[label="Data access and disemination",fillcolor="#2d4961"];
+	"FB"[label="Data analysis",fillcolor="#00aeef"];
+	"FB2"[label="Curation tools",fillcolor="#a6ce39"];
+	"FB3"[label="Information interation",style=filled,fillcolor="#62889a"];
+	"FB4"[label="Information discovery",style=filled,fillcolor="#"];
+	"FB5"[label="Research Results",style=filled,fillcolor=yellow];
+	"FB6"[label="Outcomes",style=filled,fillcolor=orange];	
+
+
+	 "DI"  ->  "DV";
+	 "DV"  ->  "DA";
+	 "DA"  ->  "Pub";
+	 "Pub"  ->  "FB";
+	 "FB"  ->  "DV";	
+
+}

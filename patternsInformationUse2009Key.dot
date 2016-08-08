@@ -1,20 +1,22 @@
 digraph foo {
-#        graph [rankdir=LR ]
+#        graph [rankdir=LR]
 #	node [style=filled,shape=Mrecord,fontname="Helvetica",width=2.75,fon]
 #	node [style=filled,shape=Mrecord,width=3.2,fontsize=14,color="#1c3f94",fontname="schlbk",margin="0.04,0.020",pad="0.02"]
-	node [style=filled,shape=Mrecord,fontsize=14,color="#1c3f94",fontname="schlbk:bold",margin="0.14,0.090",width=3.4,height=.4]
+	node [style=filled,shape=Mrecord,fontsize=14,color="#1c3f94",fontname="schlbk",margin="0.14,0.090",width=3.4,height=.4]
 
 
 
 	edge [color=Blue;style="invis"]
+
 	overlap=false;
 	splines=true;
 	margin=2;
+	weight=10
 	
 	# End Header
 
 
-	"DI"[label="Study concept & design\l",fillcolor="#ab9271"];
+	"DI"[label="Study concept & design\l",fillcolor="#ab9271";len=0.03];
 	"DV"[label="Data Collection\l",fillcolor="#ea871c"];
 	"DA"[label="Data processing\l",fillcolor="#41ad49"]; 
 	"Pub"[label="Data access and disemination\l",fillcolor="#acd1ef"];
