@@ -7,4 +7,4 @@ As previously discussed in my [blog](https://zzzoot.blogspot.ca/2009/11/data-lif
 
 Original key ![Original key](https://github.com/gnewton/gnewton.github.io/blob/master/repos/dotPatternsInformationUse2009Key/d_rin2009_13.png)
 
-DOT Key ![DOT key](https://github.com/gnewton/gnewton.github.io/blob/master/repos/dotPatternsInformationUse2009Key/patternsInformationUse2009Key.svg)
+DOT Key ![DOT key](https://raw.githubusercontent.com/gnewton/gnewton.github.io/master/repos/dotPatternsInformationUse2009Key/patternsInformationUse2009Key.svg)
